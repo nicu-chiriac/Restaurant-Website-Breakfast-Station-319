@@ -149,12 +149,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    // align-items: center;
     text-align: center;
     picture {
-      position: absolute;
-      margin: 0 auto;
-     }
+      display:none;
+    }
     .hero-text {
       h1 {
         font-size: $h1;

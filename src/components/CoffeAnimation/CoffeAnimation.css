@@ -6,7 +6,7 @@
   width: 550px;
   margin-left: 0;
   background-color: rgb(246, 207, 207);
-  border-radius: 300px;
+  border-radius: 400px;
 }
 
 .coffeecup {
@@ -191,20 +191,20 @@
 
 .steam {
   position: absolute;
-  top:-85px;
+  top:-60px;
   animation: steam 2s linear infinite;
 }
 
 .steam-2 {
   position: absolute;
-  top:-85px;
+  top:-60px;
   left:40px;
   animation: steam 2s linear infinite;
 }
 
 .steam-3 {
   position: absolute;
-  top:-85px;
+  top:-60px;
   left:80px;
   animation: steam 2s linear infinite;
 }
@@ -335,10 +335,10 @@
     transform: scale(0.6);
   }
 }
-@media only screen and (min-width: 1250px) {
+/* @media only screen and (min-width: 1250px) {
   .container {
-    zoom: 0.8;
-    -moz-transform: scale(0.8);
-    transform: scale(0.8);
+    zoom: 0.7;
+    -moz-transform: scale(0.7);
+    transform: scale(0.7);
   }
-}
+} */

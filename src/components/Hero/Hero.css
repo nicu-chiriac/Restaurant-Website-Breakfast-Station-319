@@ -145,8 +145,7 @@
     text-align: center;
   }
   .central-container picture {
-    position: absolute;
-    margin: 0 auto;
+    display: none;
   }
   .central-container .hero-text h1 {
     font-size: 2.5rem;
