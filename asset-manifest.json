@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Restaurant-Website-Breakfast-Station-319/static/css/main.60923d61.css",
-    "main.js": "/Restaurant-Website-Breakfast-Station-319/static/js/main.77ce8bd0.js",
+    "main.css": "/Restaurant-Website-Breakfast-Station-319/static/css/main.199c0ac2.css",
+    "main.js": "/Restaurant-Website-Breakfast-Station-319/static/js/main.03fedeac.js",
     "static/media/table-food2.jpg": "/Restaurant-Website-Breakfast-Station-319/static/media/table-food2.d339c414930b5f0a93e9.jpg",
     "static/media/product8.png": "/Restaurant-Website-Breakfast-Station-319/static/media/product8.09abb9c79d9d337ecf3d.png",
     "static/media/product13.png": "/Restaurant-Website-Breakfast-Station-319/static/media/product13.0d6b58382b4f672df1ba.png",
@@ -38,11 +38,11 @@
     "static/media/icon_knife_fork.svg": "/Restaurant-Website-Breakfast-Station-319/static/media/icon_knife_fork.0caffed8a9c977dd715ffce47111841f.svg",
     "index.html": "/Restaurant-Website-Breakfast-Station-319/index.html",
     "static/media/icon-search.svg": "/Restaurant-Website-Breakfast-Station-319/static/media/icon-search.f5dc379e9dce70d2837ecbe6cce1401e.svg",
-    "main.60923d61.css.map": "/Restaurant-Website-Breakfast-Station-319/static/css/main.60923d61.css.map",
-    "main.77ce8bd0.js.map": "/Restaurant-Website-Breakfast-Station-319/static/js/main.77ce8bd0.js.map"
+    "main.199c0ac2.css.map": "/Restaurant-Website-Breakfast-Station-319/static/css/main.199c0ac2.css.map",
+    "main.03fedeac.js.map": "/Restaurant-Website-Breakfast-Station-319/static/js/main.03fedeac.js.map"
   },
   "entrypoints": [
-    "static/css/main.60923d61.css",
-    "static/js/main.77ce8bd0.js"
+    "static/css/main.199c0ac2.css",
+    "static/js/main.03fedeac.js"
   ]
 }
