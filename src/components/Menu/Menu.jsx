@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import products from '../../assets/data/products';
 import './Menu.css';
-import ReactPaginate from "react-paginate";
 import iconSearch from '../../assets/img/icons/icon-search.svg';
 import foodsIcon from '../../assets/img/icons/foods.svg';
 import beveragesIcon from '../../assets/img/icons/beverages.svg';
@@ -9,17 +8,12 @@ import beveragesIcon from '../../assets/img/icons/beverages.svg';
 export default function Menu() {
 
   const [searchTerm, setSearchTerm] = useState("");
-  // const [pageNumber, setPageNumber] = useState(0);
-
   const [category, setCategory] = useState("");
-  // const [pageCount, setPageCount] = useState();
-
   const [showText, setShowText] = useState(false);
   const text = "Phone number copied!"
 
   useEffect(() => {
     setCategory('food');
-    // setPageCount(Math.ceil(searchedProduct.length / productPerPage));
   }, []);
 
   const handleClickFood = (e) => {
@@ -40,19 +34,6 @@ export default function Menu() {
       return console.log("not found");
     }
   });
-
-  // const productPerPage = 6;
-  // const visitedPage = pageNumber * productPerPage;
-  // const displayPage = searchedProduct.slice(
-  //   visitedPage,
-  //   visitedPage + productPerPage
-  // );
-
-
-
-  // const changePage = ({ selected }) => {
-  //   setPageNumber(selected);
-  // };
 
   return (
     <section className='menu' id="menu">
@@ -111,15 +92,6 @@ export default function Menu() {
       <p>
         {showText ? text : ''}
       </p>
-      {/* <div>
-        <ReactPaginate
-          pageCount={pageCount}
-          onPageChange={changePage}
-          previousLabel={"Prev"}
-          nextLabel={"Next"}
-          containerClassName=" paginationBttns "
-        />
-      </div> */}
     </section>
   )
 }
